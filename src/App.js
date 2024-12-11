@@ -1,13 +1,49 @@
+import React, { useState } from 'react'
 
-import './App.css';
-import AdminDashboard from './Components/AdminDashboard';
+import NavBar from "./Components/NavBar"
+import { BrowserRouter as Router } from 'react-router-dom';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import Layout from './pages/Layout';
+import RouteSample from './pages/RouteSample';
+
+
+
+
 
 function App() {
+  const [mode, setMode] = useState("light")
+  const [icons, setIcons] = useState(<DarkModeIcon fontSize="large" />)
+
+  const toggleMode = () => {
+    if (mode === "light") {
+      setMode("dark")
+      setIcons(<LightModeIcon fontSize="large" />)
+
+      document.body.style.backgroundColor = '#03102a'
+      document.body.style.color = 'white'
+    }
+    else {
+      setMode("light")
+      setIcons(<DarkModeIcon fontSize="large" />)
+
+      document.body.style.backgroundColor = 'white'
+      document.body.style.color = "black"
+    }
+  }
+
+  // const 
   return (
-    <div className="App">
-      <AdminDashboard/>
+    <Router>
+    <div>
+      <NavBar mode={mode} toggleMode={toggleMode} icons={icons} />
+      <Layout mode={mode}/>
+      <RouteSample/>
+
+
     </div>
-  );
+    </Router>
+  )
 }
 
-export default App;
+export default App
