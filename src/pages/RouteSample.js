@@ -14,7 +14,7 @@ function RouteSample() {
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/employees/add" element={<AddEmployees />} />
                 <Route path="/employees/:id" element={<EmployeeInfo />} />
-                <Route path="/employees/:id/update" element={<UpdateInfo />} />
+                <Route path="/employees/:id/edit" element={<UpdateInfo />} />
             </Routes>
         </div>
     )

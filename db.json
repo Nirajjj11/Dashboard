@@ -1,26 +1,59 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "John Doe",
-            "age": 30
-        },
-        {
-            "id": 2,
-            "name": "Jane Smith",
-            "age": 25
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "Post 1",
-            "content": "This is post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2",
-            "content": "This is post 2"
-        }
-    ]
+  "employees": [
+    {
+      "id": "3",
+      "name": "suraj ",
+      "age": "25",
+      "sex": "male",
+      "address": "Ranchi",
+      "email": "suraj@.com",
+      "jobRole": "Hr",
+      "daysPresent": "30",
+      "joiningDate": "2023-05-07"
+    },
+    {
+      "id": "4",
+      "name": "John Doe",
+      "age": 30,
+      "sex": "Male",
+      "address": "123 Main St",
+      "email": "john.doe@example.com",
+      "jobRole": "Developer",
+      "daysPresent": 20,
+      "joiningDate": "2022-01-01"
+    },
+    {
+      "id": "5",
+      "name": "Jane Smith",
+      "age": 28,
+      "sex": "Female",
+      "address": "456 Oak Ave",
+      "email": "jane.smith@example.com",
+      "jobRole": "Manager",
+      "daysPresent": 25,
+      "joiningDate": "2021-03-15"
+    },
+    {
+      "id": 1733956242439,
+      "name": "Niraj ",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "59",
+      "joiningDate": "2023-04-25"
+    },
+    {
+      "id": 1733956266134,
+      "name": "Niraj Kumar",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "045",
+      "joiningDate": "2024-11-25"
+    }
+  ]
 }

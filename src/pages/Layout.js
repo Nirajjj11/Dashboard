@@ -6,9 +6,11 @@ function Layout(props) {
     // Use useMemo to compute the styles dynamically
     const myStyle = useMemo(() => {
         return props.mode === 'light'
-            ? { color: 'black', backgroundColor: 'white' }
-            : { color: 'white', backgroundColor: 'black' };
+            ? { color: 'black', backgroundColor: '#d8d3f8   ' }
+            : { color: 'white', backgroundColor: '#322d49  ' };
     }, [props.mode]);
+
+    const employeeId = 1;  // Replace with dynamic ID or prop
 
     return (
         <>
@@ -21,21 +23,27 @@ function Layout(props) {
                         </li>
                         <li>
                             <Link className="sidebar-link" to='/employees' style={myStyle}>Employees</Link>
-                            <ul style={myStyle}>
-                                <li>
-                                    <Link className="sidebar-link" to='/add' style={myStyle}>Add Employees</Link>
-                                </li>
-                                <li>
-                                    <Link className="sidebar-link" to='/:id' style={myStyle}>Info</Link>
-                                </li>
-                                <li>
-                                    <Link className="sidebar-link" to='/:id/update' style={myStyle}>Update Id</Link>
-                                </li>
-                            </ul>
+                        </li>
+                        <li>
+                            <Link className="sidebar-link" to={`/employees/${employeeId}`} style={myStyle}>
+                                
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link className="sidebar-link" to='/employees/add' style={myStyle}>
+                                Add Employee
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link className="sidebar-link" to={`/employees/${employeeId}/edit`} style={myStyle}>
+                                Update Employee
+                            </Link>
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </div >
 
             <div className={`content ${props.mode === 'dark' ? 'dark' : ''}`}>
                 <Outlet />

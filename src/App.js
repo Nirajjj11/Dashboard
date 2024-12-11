@@ -20,14 +20,14 @@ function App() {
       setMode("dark")
       setIcons(<LightModeIcon fontSize="large" />)
 
-      document.body.style.backgroundColor = '#03102a'
+      document.body.style.backgroundColor = '#212631'
       document.body.style.color = 'white'
     }
     else {
       setMode("light")
       setIcons(<DarkModeIcon fontSize="large" />)
 
-      document.body.style.backgroundColor = 'white'
+      document.body.style.backgroundColor = '#f1eeff  '
       document.body.style.color = "black"
     }
   }
