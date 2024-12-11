@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "age": 30
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "age": 25
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "content": "This is post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "content": "This is post 2"
+        }
+    ]
+}
