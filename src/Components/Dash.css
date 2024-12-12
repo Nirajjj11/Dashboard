@@ -1,0 +1,17 @@
+.FullCount {
+    border: 1px solid #0c5baa;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 232);
+    padding: 50px;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+    margin: 0;
+
+}

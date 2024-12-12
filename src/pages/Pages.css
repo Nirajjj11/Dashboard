@@ -1,4 +1,7 @@
-
+*{
+    text-align: center;
+    content: center;
+}
 .sidebar {
     width: 250px;
     height: 100vh;
@@ -28,8 +31,30 @@
 /* Content Area Styling */
 .content {
     margin-left: 250px;
+    margin-top: 20px;
     /* Offset the content by the sidebar width */
     padding: 20px;
     flex-grow: 1;
     /* Allow content to fill remaining space */
+}
+
+.dashboard{
+    display: flex;
+}
+.FullCount {
+    border: 1px solid #0c5baa;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 232);
+    
+}
+.employees{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.container-mine{
+    width: 60%;
+    justify-content: center;
+    margin-left: 30%;
+
 }

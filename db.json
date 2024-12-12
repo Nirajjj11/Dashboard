@@ -12,17 +12,6 @@
       "joiningDate": "2023-05-07"
     },
     {
-      "id": "4",
-      "name": "John Doe",
-      "age": 30,
-      "sex": "Male",
-      "address": "123 Main St",
-      "email": "john.doe@example.com",
-      "jobRole": "Developer",
-      "daysPresent": 20,
-      "joiningDate": "2022-01-01"
-    },
-    {
       "id": "5",
       "name": "Jane Smith",
       "age": 28,
@@ -34,7 +23,7 @@
       "joiningDate": "2021-03-15"
     },
     {
-      "id": 1733956242439,
+      "id": "1733956242439",
       "name": "Niraj ",
       "age": "21",
       "sex": "male",
@@ -45,7 +34,7 @@
       "joiningDate": "2023-04-25"
     },
     {
-      "id": 1733956266134,
+      "id": "1733956266134",
       "name": "Niraj Kumar",
       "age": "21",
       "sex": "male",
@@ -54,6 +43,226 @@
       "jobRole": "developer",
       "daysPresent": "045",
       "joiningDate": "2024-11-25"
+    },
+    {
+      "id": "37845",
+      "name": "suraj ",
+      "age": "25",
+      "sex": "male",
+      "address": "Ranchi",
+      "email": "suraj@.com",
+      "jobRole": "Hr",
+      "daysPresent": "30",
+      "joiningDate": "2023-05-07"
+    },
+    {
+      "id": "463",
+      "name": "John Doe",
+      "age": 30,
+      "sex": "Male",
+      "address": "123 Main St",
+      "email": "john.doe@example.com",
+      "jobRole": "Developer",
+      "daysPresent": 20,
+      "joiningDate": "2022-01-01"
+    },
+    {
+      "id": "5785",
+      "name": "Jane Smith",
+      "age": 28,
+      "sex": "Female",
+      "address": "456 Oak Ave",
+      "email": "jane.smith@example.com",
+      "jobRole": "Manager",
+      "daysPresent": 25,
+      "joiningDate": "2021-03-15"
+    },
+    {
+      "id": "1734582439",
+      "name": "Niraj ",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "59",
+      "joiningDate": "2023-04-25"
+    },
+    {
+      "id": "17339667434",
+      "name": "Niraj Kumar",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "045",
+      "joiningDate": "2024-11-25"
+    },
+    {
+      "id": "336",
+      "name": "suraj ",
+      "age": "25",
+      "sex": "male",
+      "address": "Ranchi",
+      "email": "suraj@.com",
+      "jobRole": "Hr",
+      "daysPresent": "30",
+      "joiningDate": "2023-05-07"
+    },
+    {
+      "id": "412",
+      "name": "John Doe",
+      "age": 30,
+      "sex": "Male",
+      "address": "123 Main St",
+      "email": "john.doe@example.com",
+      "jobRole": "Developer",
+      "daysPresent": 20,
+      "joiningDate": "2022-01-01"
+    },
+    {
+      "id": "569",
+      "name": "Jane Smith",
+      "age": 28,
+      "sex": "Female",
+      "address": "456 Oak Ave",
+      "email": "jane.smith@example.com",
+      "jobRole": "Manager",
+      "daysPresent": 25,
+      "joiningDate": "2021-03-15"
+    },
+    {
+      "id": "1339562439",
+      "name": "Niraj ",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "59",
+      "joiningDate": "2023-04-25"
+    },
+    {
+      "id": "17956266134",
+      "name": "Niraj Kumar",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "045",
+      "joiningDate": "2024-11-25"
+    },
+    {
+      "id": "36",
+      "name": "suraj ",
+      "age": "25",
+      "sex": "male",
+      "address": "Ranchi",
+      "email": "suraj@.com",
+      "jobRole": "Hr",
+      "daysPresent": "30",
+      "joiningDate": "2023-05-07"
+    },
+    {
+      "id": "465",
+      "name": "John Doe",
+      "age": 30,
+      "sex": "Male",
+      "address": "123 Main St",
+      "email": "john.doe@example.com",
+      "jobRole": "Developer",
+      "daysPresent": 20,
+      "joiningDate": "2024-11-01"
+    },
+    {
+      "id": "57",
+      "name": "Jane Smith",
+      "age": 28,
+      "sex": "Female",
+      "address": "456 Oak Ave",
+      "email": "jane.smith@example.com",
+      "jobRole": "Manager",
+      "daysPresent": 25,
+      "joiningDate": "2021-03-15"
+    },
+    {
+      "id": "17339562439",
+      "name": "Niraj ",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "59",
+      "joiningDate": "2023-04-25"
+    },
+    {
+      "id": "17339566134",
+      "name": "Niraj Kumar",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "bcabncnirajkumar2020@gmail.com",
+      "jobRole": "developer",
+      "daysPresent": "045",
+      "joiningDate": "2024-11-25"
+    },
+    {
+      "id": "1733962399981",
+      "name": "bfdb",
+      "age": "21",
+      "sex": "male",
+      "address": "uqh",
+      "email": "abc@mno.in",
+      "jobRole": "developer",
+      "daysPresent": "025",
+      "joiningDate": "2024-12-03"
+    },
+    {
+      "id": "1733986440081",
+      "name": "raj ",
+      "age": "35",
+      "sex": "male",
+      "address": "lucknow",
+      "email": "raj@gmiail.co",
+      "jobRole": "Marketing Executive",
+      "daysPresent": "25",
+      "joiningDate": "2024-01-12"
+    },
+    {
+      "id": "1734002087520",
+      "name": "Samar Kant",
+      "age": "35",
+      "sex": "male",
+      "address": "lucknow",
+      "email": "samar@gmail.com",
+      "jobRole": "CEO",
+      "daysPresent": "31",
+      "joiningDate": "2018-05-01"
+    },
+    {
+      "id": "1734002462937",
+      "name": "Mahi",
+      "age": "21",
+      "sex": "Female",
+      "address": "Punpun",
+      "email": "MAhi@123",
+      "jobRole": "Marketing Executive",
+      "daysPresent": "025",
+      "joiningDate": "2024-11-12"
+    },
+    {
+      "id": "1734002916055",
+      "name": "Suresh",
+      "age": "26",
+      "sex": "Male",
+      "address": "Banaras",
+      "email": "suresh@gmail.com",
+      "jobRole": "Developer",
+      "daysPresent": "026",
+      "joiningDate": "2015-12-16"
     }
   ]
 }

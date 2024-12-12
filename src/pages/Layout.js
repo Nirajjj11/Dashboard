@@ -14,9 +14,9 @@ function Layout(props) {
 
     return (
         <>
-            <div className={`sidebar ${props.mode === 'dark' ? 'dark' : ''}`} style={myStyle}>
+            <div className={`sidebar ${props.mode === 'dark' ? 'dark' : 'light'}`} style={myStyle}>
                 <nav>
-                    <h2 className='App mx-5' style={myStyle}>Layout</h2>
+                    <h2 className='App mx-5 my-5' style={myStyle}>Layout</h2>
                     <ul className="fs-4 mx-4 sidebar-list" style={myStyle}>
                         <li style={myStyle}>
                             <Link className="sidebar-link" to='/' style={myStyle}>Dashboard</Link>
