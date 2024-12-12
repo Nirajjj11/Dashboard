@@ -1,7 +1,10 @@
-import React, { useEffect, useState,useMemo } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import './Pages.css';
 import man from './pics/man.png';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDribbble, faTwitter, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function Employees(props) {
   const [employees, setEmployees] = useState([]);
@@ -17,11 +20,11 @@ function Employees(props) {
   }, []);
 
   const myStyle = useMemo(() => {
-        return props.mode === 'light'
-          ? { color: 'black', backgroundColor: '#d8d3f8   ' }
-          : { color: 'white', backgroundColor: '#322d49  ' };
-      }, [props.mode]);
-  
+    return props.mode === 'light'
+      ? { color: 'black', backgroundColor: '#d8d3f8   ' }
+      : { color: 'white', backgroundColor: '#322d49  ' };
+  }, [props.mode]);
+
 
   return (
     <div className='content'>
@@ -45,7 +48,21 @@ function Employees(props) {
                     {/* Employee name */}
                     <h5 className="card-title">{employee.name}</h5>
                     {/* Employee job role */}
-                    <p className="card-text">{employee.jobRole}</p>
+                    <p className="card-text">Role : {employee.jobRole}</p>
+                    <div style={{ fontSize: '24px', margin: '10px 0' }}>
+                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                        <FontAwesomeIcon icon={faDribbble} />
+                      </a>
+                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+
+                      </a>
+                    </div>
                   </div>
                 </div>
               </Link>
