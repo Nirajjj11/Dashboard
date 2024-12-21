@@ -4,7 +4,7 @@ import './Pages.css';
 import man from './pics/man.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDribbble, faTwitter, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faDribbble, faTwitter, faLinkedin, } from '@fortawesome/free-brands-svg-icons';
 
 function Employees(props) {
   const [employees, setEmployees] = useState([]);
@@ -50,18 +50,18 @@ function Employees(props) {
                     {/* Employee job role */}
                     <p className="card-text">Role : {employee.jobRole}</p>
                     <div style={{ fontSize: '24px', margin: '10px 0' }}>
-                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                      <Link href="#" style={{ margin: '0 10px', color: '#000' }}>
                         <FontAwesomeIcon icon={faDribbble} />
-                      </a>
-                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                      </Link>
+                      <Link href="#" style={{ margin: '0 10px', color: '#000' }}>
                         <FontAwesomeIcon icon={faTwitter} />
-                      </a>
-                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                      </Link>
+                      <Link href="#" style={{ margin: '0 10px', color: '#000' }}>
                         <FontAwesomeIcon icon={faLinkedin} />
-                      </a>
-                      <a href="#" style={{ margin: '0 10px', color: '#000' }}>
+                      </Link>
+                      <Link href="#" style={{ margin: '0 10px', color: '#000' }}>
 
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

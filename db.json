@@ -1,17 +1,6 @@
 {
   "employees": [
     {
-      "id": "3",
-      "name": "suraj ",
-      "age": "25",
-      "sex": "male",
-      "address": "Ranchi",
-      "email": "suraj@.com",
-      "jobRole": "Hr",
-      "daysPresent": "30",
-      "joiningDate": "2023-05-07"
-    },
-    {
       "id": "5",
       "name": "Jane Smith",
       "age": 28,
@@ -263,6 +252,17 @@
       "jobRole": "Developer",
       "daysPresent": "026",
       "joiningDate": "2015-12-16"
+    },
+    {
+      "id": "1734076368953",
+      "name": "Rishabh Jaiswal",
+      "age": "21",
+      "sex": "male",
+      "address": "Patna",
+      "email": "abc@mno.in",
+      "jobRole": "developer",
+      "daysPresent": "26",
+      "joiningDate": "2018-11-02"
     }
   ]
 }
