@@ -3,7 +3,7 @@
     {
       "id": "5",
       "name": "Jane Smith",
-      "age": 28,
+      "age": "26",
       "sex": "Female",
       "address": "456 Oak Ave",
       "email": "jane.smith@example.com",
@@ -263,6 +263,28 @@
       "jobRole": "developer",
       "daysPresent": "26",
       "joiningDate": "2018-11-02"
+    },
+    {
+      "id": "1738508613469",
+      "name": "Dheeraj",
+      "age": "20",
+      "sex": "Male",
+      "address": "Patna",
+      "email": "dheeraj@123.com",
+      "jobRole": "Manager",
+      "daysPresent": "28",
+      "joiningDate": "2025-02-13"
+    },
+    {
+      "id": "1746100208108",
+      "name": "Raman",
+      "age": "21",
+      "sex": "Male",
+      "address": "Patn",
+      "email": "raman@123",
+      "jobRole": "Intern",
+      "daysPresent": "12",
+      "joiningDate": "2025-04-12"
     }
   ]
 }
